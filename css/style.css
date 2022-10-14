@@ -1,0 +1,624 @@
+* {
+   
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    max-width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: rgb(13, 13, 13);
+    color: white;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  nav {
+    margin: 0 auto;
+    width: 1000px;
+    margin-right: 515px;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  li {
+    display: inline;
+    padding-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  a:link, a:visited {
+    text-decoration: none;
+    color: white;
+  }
+  a:hover {
+    color:rgb(147, 143, 136); 
+    transition: 1s;
+  }
+  
+  .header-img {
+  justify-content: center;
+  padding-right: 30px;
+  }
+
+h2 {
+    font-size: 22px;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(229,222,211);
+    
+}
+
+
+.header-1 {
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    border: 0;
+    height: 100%;
+    display: inline;
+    position: relative;
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: all 1s;
+    filter: blur(4px);
+}
+.show {
+    opacity: 1;
+    transform: translateX(0%);
+    filter: blur(0);
+    
+}
+
+.header-contents h1 {
+    position: absolute;
+    bottom: 350px;
+    left: 640px;
+    color: white;
+    text-shadow: 0.2em 0.1em 0.2em black;
+    font-weight: bold;
+    font-size: 40px;
+    font-family:"Expletus Sans";
+}
+
+.header-logo {
+    position: absolute;
+    bottom: 55px;
+    left: 500px;
+}
+
+.header-contents {
+    margin: 0;
+    border: 0;
+    height:485px;
+}
+.header-contents-img {
+    margin: 0;
+    border: 0;
+    width: 100%;
+}
+.header-carrossel{
+    width: 1048px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    background-color: brown;
+    margin: 0;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 600px;
+    
+    
+}
+.about-container {
+    width: 532px;   
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;  
+    
+}
+.about-title {
+    text-align: center;
+}
+
+.img-right-div {
+    width: 810px;
+}
+
+.img-right {
+    width: 100%;
+    height:600px;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    -webkit-filter:grayscale(0%);
+    transition: 1s;
+}
+.img-right:hover {
+    -webkit-filter:grayscale(80%);
+    transition: 1.5s;
+}
+
+.about-title {
+    text-align: center;
+    
+}
+
+.main {
+    border: 0;
+    padding: 0;
+    align-items: left;
+    background-color: rgb(229,222,211);
+    font-size: 24px;
+    width: 100%;
+    margin: 0;
+}
+.main p {
+    font-size: 22px;
+}
+
+.melhorias {
+   margin: 0 auto;
+}
+
+.center {
+    width: 1048px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.center-left {
+    width: 1000px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    
+}
+
+.produtos {
+   width: 100%;
+   background-color: #fffefa;
+   display: flex;
+   margin: 0 auto;
+   justify-content: space-evenly;
+   padding-top: 40px;
+   
+}
+
+.produtos h1 {
+    padding: 20px;
+}
+
+.carrossel-img {
+    margin: 0 auto;
+    display: flex ;
+}
+
+.produtos-contents {
+    display: flex;
+    width: 1048px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 auto;
+
+
+}
+.carrossel-contents h1 {
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+.reversa-title {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    
+    
+}
+.h1-reversa {
+   margin-left: 100px ;
+   font-size: 34px;
+}
+
+.reversa{
+    font-size: 24px;
+}
+
+.melhorias-img-container{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.melhorias-img-1-img{
+    width: 40%;
+    height: 40%;
+}
+.melhorias-img-2-img{
+    width: 40%;
+    height: 40%;
+    position: relative;
+    bottom: 100px;
+    left: 400px;
+}
+
+.tec-title {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    
+    
+}
+.h1-tec {
+   margin-top: 100px; 
+   margin-left: 100px ;
+   font-size: 34px;
+}
+.tec-icon {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 160vh;
+    bottom: 120px;
+    overflow: hidden;
+    
+}
+
+.tec-visuals {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tec-img {
+    border-radius: 20px;
+    margin: 50px 0 50px 0;
+    transition: 1s;
+    -webkit-filter:grayscale(0%);
+}
+.tec-img:hover {
+    -webkit-filter:grayscale(80%);
+    transition: 1.5s;
+}
+
+.saco {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 1100px;
+    bottom: 150px;
+}
+
+.main-2{
+    background-color: rgb(229,222,211);
+    font-size: 30px;
+}
+
+.yt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 50px;
+}
+.yt-div {
+    border-radius: 15px;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(36, 36, 36);
+    font-size: 16px;
+}
+
+.footer-contents{
+    display: flex;
+    justify-content:space-between;
+    margin: 0 auto;
+    width: 1400px;
+    background-color: rgb(36, 36, 36);
+    color: white;  
+}
+
+.footer-left {
+    margin-top: 20px;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.btn-1 {
+    appearance: none;
+    background-color: white;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #3B3B3B;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 30px;
+    min-width: 0;
+    outline: none;
+    padding: 6px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+    will-change: transform;
+  }
+  
+  .btn-1:disabled {
+    pointer-events: none;
+  }
+  
+  .btn-1:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .btn-1:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+  
+  
+  /* CSS */
+  .btn-2 {
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #747474;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    margin-top: 20px;
+    min-height: 20px;
+    min-width: 0;
+    outline: none;
+    padding: 6px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+    will-change: transform;
+  }
+  
+  .btn-2:disabled {
+    pointer-events: none;
+  }
+  
+  .btn-2:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .btn-2:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+  
+  .btn-wpp {
+      width: 250px;
+      appearance: none;
+    background-color: transparent;
+    border: 2px solid #303030;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: normal;
+    outline: none;
+    padding: 6px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .btn-wpp:disabled {
+    pointer-events: none;
+  }
+  
+  .btn-wpp:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .btn-wpp:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+  
+  .fa-brands{
+      margin-left: 10%;
+      font-size: 25px;
+      color: green;
+  }
+
+ .footer-contents-low {
+    margin: 0 auto;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+ } 
+  
+@media screen and (max-width: 700px) {
+    body {
+        font-size: 12px;
+    }
+
+    .header {
+        width: 100%;
+        
+
+    }
+
+    .header-1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .li {
+        display: flex;
+        flex-direction: column;
+    }
+    .about {
+        width: 100%;
+        height: 100%;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+   .body {
+    max-width: 100%;
+   }
+
+    .header-1 {
+        
+        padding: 0;
+    
+    }
+    .header-contents {
+        height: 70vh;
+        margin: 0;
+        padding: 0;
+        position: ;
+    }
+    .header-contents-img {
+        height: 100%;
+        margin: 0px;
+        padding: 0;
+    }
+
+    .header-contents h1 {
+        position: absolute;
+        bottom: 280px;
+        left: 535px;
+        font-size: 30px;
+       
+    }
+    
+    .header-logo {
+        position: absolute;
+        bottom: 85px;
+        left: 465px;
+        height: 30vh;
+    }
+
+    .about {
+        height: 90vh;
+        font-size: 22px;
+    }
+    .about-container {
+        font-size: 20px;
+        height: 90vh;
+    }
+    .about-container p {
+        height: 15vh;
+        font-size: 20px;
+    }
+
+    .img-right {
+        height: 90vh;
+    }
+
+    .footer-contents {
+        width: 160vh;
+    }
+    .tec-title {       
+        overflow: hidden;
+    }
+    .tec-icon {
+        position: relative;
+        left: 160vh;
+    }
+}
